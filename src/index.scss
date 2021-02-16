@@ -180,24 +180,24 @@ body {
     text-decoration: line-through;
     color: var(--striked-text);
   }
+}
 
-  .icon-cross {
-    background-color: inherit;
-    border: none;
-    padding-left: 10px;
-    cursor: pointer;
-    transition: opacity 0.15s ease-in-out;
-    margin: 0 20px 0 auto;
-    opacity: 0;
-  }
+.icon-cross {
+  background-color: inherit;
+  border: none;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out;
+  margin: 0 20px 0 auto;
+  opacity: 0;
+}
 
-  .icon-cross:focus {
-    opacity: 1;
-  }
+.icon-cross:focus {
+  opacity: 1;
+}
 
-  &:hover .icon-cross {
-    opacity: 1;
-  }
+.todo-item:hover .icon-cross {
+  opacity: 1;
 }
 
 // Filter Buttons styling
@@ -286,10 +286,10 @@ body {
   .dnd-to-reorder--mobile {
     transform: translateX(0px);
   }
+
   .icon-cross {
     opacity: 1;
   }
-
   .header__heading {
     font-size: 30px;
   }
